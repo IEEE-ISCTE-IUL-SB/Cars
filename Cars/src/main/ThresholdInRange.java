@@ -51,7 +51,7 @@ public class ThresholdInRange {
     private JLabel imgDetectionLabel;
     private CaptureTask captureTask;
     
-    //Modi
+    //Modificação 
     
     public ThresholdInRange(String[] args) {
         int cameraDevice = 0;
