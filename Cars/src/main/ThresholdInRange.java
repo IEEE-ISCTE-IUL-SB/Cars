@@ -50,6 +50,9 @@ public class ThresholdInRange {
     private JLabel imgCaptureLabel;
     private JLabel imgDetectionLabel;
     private CaptureTask captureTask;
+    
+    //Modi
+    
     public ThresholdInRange(String[] args) {
         int cameraDevice = 0;
         if (args.length > 0) {
@@ -64,6 +67,7 @@ public class ThresholdInRange {
             System.err.println("Cannot read camera stream.");
             System.exit(0);
         }
+        
         // Create and set up the window.
         frame = new JFrame(WINDOW_NAME);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
